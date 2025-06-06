@@ -123,7 +123,7 @@ def http_bot(message, history, api_url, api_key, model, max_tokens, temperature,
 
 def build_demo():
     # Define available models
-    models = ["DeepSeek-V3", "qwen2-7b", "llama3-8b", "mistral-7b"]
+    models = ["DeepSeek-V3", "DeepSeek-R1"]
     
     with gr.Blocks() as demo:
         gr.Markdown("# LLM Chat Interface")
